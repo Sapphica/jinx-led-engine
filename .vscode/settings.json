@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.configurationProvider": "platformio.platformio-ide",
+    "files.associations": {
+        "*.tcc": "cpp"
+    },
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+}
