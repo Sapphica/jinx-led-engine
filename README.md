@@ -1,36 +1,79 @@
-# jinx-led-engine  
-Cinematic LED engine powering the Jinx Statue lighting project.  
-14× GRBW NeoPixels driven by a Nano Every using custom breathing curves, gem-tone sparkle effects, and dynamic mode transitions.
+⚙️ Engineering Summary
 
-## ✨ Features
+The Jinx LED Engine is a custom embedded lighting system built for a Jinx statue display.
+Running on an Arduino Nano Every, it drives 14 GRBW NeoPixel LEDs using two independent real-time animation engines:
 
-- Sparkle engine with 12 independently timed LEDs  
-- Cinematic breathing cycle for LEDs 12–13  
-- Auto-mode switching: pink, amethyst/white, gem-tone random  
-- Per-cycle brightness variation  
-- Full C++ class-based architecture (no `.ino` spaghetti)  
-- Designed for PlatformIO + VS Code  
+🌩️ Cloud Lightning Engine (LEDs 0–11)
 
-## 📁 Project Structure
+A randomized micro-timed lightning simulator running under diffused “clouds.”
+Each LED has its own timing schedule, flash probability, and brightness curve.
 
-src/
-├── main.cpp → Arduino entry
-├── led_engine.cpp → LED logic implementation
-└── led_engine.h → Engine interface & state
+💗 Core Breathing Engine (LEDs 12–13)
 
-## 🚀 Build & Upload
+A smooth, cinematic breathing cycle with multiple colour modes (pink, amethyst, white, gem-tones), driven by internal state machines and brightness scaling.
 
-1. Install VS Code  
-2. Install PlatformIO extension  
-3. Open the folder `jinx-led-engine/`  
-4. Click **Build** → **Upload**
+Together, they create a layered, organic lighting effect that feels alive and reactive — engineered specifically for physical art display and visual depth enhancement.
 
-## 🧩 Hardware
+🧱 System Architecture
+🌩️ Lightning Engine (0–11)
 
-- **Arduino Nano Every**  
-- **14× GRBW NeoPixels** (Adafruit / compatible)  
-- Powered from regulated 5V rail
+Independent per-LED timers
 
-## 📜 License
+70% ambient glow baseline
 
-MIT — free to use in your own builds.
+Random lightning bursts (white or tonal variants)
+
+Multi-intensity flashes
+
+Non-synchronized for realism
+
+💗 Breathing Engine (12–13)
+
+Smooth fade-in → hold → fade-out
+
+Mode-based colour selection
+
+Supports saturated gem tones (emerald, sapphire, teal, gold…)
+
+Optional half-brightness cycles
+
+🛠️ Technology Stack
+Hardware
+
+⚡ Arduino Nano Every (ATmega4809)
+
+💡 14× GRBW SK6812 NeoPixels
+
+🔌 5V regulated LED rail
+
+Software
+
+🧩 PlatformIO (Arduino framework)
+
+🎨 Adafruit NeoPixel (GRBW)
+
+⏱️ Non-blocking timing loops using millis()
+
+🎛️ Deterministic state machines
+
+Tools
+
+🖥️ Visual Studio Code
+
+🔧 PlatformIO
+
+🔐 GitHub (SSH onboarding)
+
+📁 Project Structure
+jinx-led-engine/
+ ├── src/
+ │   └── main.cpp
+ ├── include/
+ ├── images/            ← GIFs, photos, render shots
+ ├── platformio.ini
+ └── README.md
+
+🖼️ Gallery
+![Front view](images/jinx_front.jpg)
+![Cloud lightning detail](images/jinx_clouds.jpg)
+![Internal electronics](images/jinx_wiring.jpg)
