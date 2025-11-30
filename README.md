@@ -1,47 +1,56 @@
+Jinx LED Engine
+
+
+
+
+
+
+
+
+
+
 ✨ Animated Showcase
 
-(Recommended: ~1200px wide GIF)
+(Recommended: ~1200px GIF)
 
 ⚙️ Engineering Summary
 
-The Jinx LED Engine is a custom embedded lighting system built for a Jinx statue display.
-It runs on an Arduino Nano Every and drives 14 GRBW NeoPixel LEDs using two independent real-time animation engines:
+The Jinx LED Engine is a custom embedded lighting system built for a Jinx statue display. It runs on an Arduino Nano Every and drives 14 GRBW NeoPixel LEDs using two independent, real-time animation engines.
 
 🌩️ Cloud Lightning Engine (LEDs 0–11)
 
 A randomized micro-timed lightning simulator running under diffused “clouds.”
-Each LED maintains its own timer, flash probability, and brightness profile, creating a natural, storm-like effect with no global synchronization.
+Each LED maintains its own timer, flash probability, and brightness profile, creating a natural, storm-like flicker with no global synchronization.
 
 💗 Core Breathing Engine (LEDs 12–13)
 
-A cinematic breathing system for the central “energy core.”
-It uses mode-based colour selection (pink, black-amethyst, white, gem-tones) and a smooth fade curve, with brightness scaling per cycle.
+A cinematic breathing system for the statue’s central “energy core.”
+Uses mode-based colour selection (pink, black-amethyst, white, gem-tones) and a smooth fade curve, with brightness scaling each cycle.
 
-Both engines use non-blocking millis()-based scheduling, allowing smooth, deterministic animations without timing interference.
-The result is a multi-layered, physically integrated lighting effect engineered for visual depth, contrast, and motion.
+Both engines use non-blocking millis() scheduling, producing deterministic, layered animation without timing interference.
 
 🧱 System Architecture
-1. Cloud Lightning Engine (0–11)
+1. Cloud Lightning Engine
 
 Independent per-LED timers
 
-~70% ambient glow baseline
+~70% ambient baseline glow
 
-Random lightning bursts (white and coloured variants)
+Random lightning bursts (white + coloured)
 
-Variable flash intensity and interval per LED
+Per-LED intensity + interval variation
 
-Designed to sit under translucent acrylic/cloud diffusion
+Optimized to sit under acrylic/cloud diffusion
 
-Goal: create atmospheric motion and subtle chaos under the statue.
+Goal: atmospheric motion and subtle chaotic flicker.
 
-2. Core Breathing Engine (12–13)
+2. Core Breathing Engine
 
-Smooth fade-in → hold → fade-out breathing curve
+Smooth fade-in → hold → fade-out curve
 
-Mode-driven colour states:
+Colour modes:
 
-Pink core
+Pink
 
 Black-amethyst
 
@@ -49,11 +58,11 @@ True white
 
 Gem-tone random (emerald, sapphire, teal, gold, etc.)
 
-Per-cycle brightness scaling (half or full intensity)
+Per-cycle brightness scaling
 
-Mode changes only at blackout for clean visual transitions
+Mode changes only during blackout for clean transitions
 
-Goal: provide a controlled, rhythmic “energy core” that defines the overall mood.
+Goal: a rhythmic, controlled “energy core” that sets the tone.
 
 🛠️ Technology Stack
 Hardware
@@ -64,37 +73,33 @@ Hardware
 
 🔌 5 V regulated LED rail
 
-Internal wiring and placement optimized for diffusion and heat considerations
-
 Software
 
 🧩 PlatformIO (Arduino framework)
 
-🎨 Adafruit NeoPixel library (GRBW)
+🎨 Adafruit NeoPixel library
 
-⏱️ Non-blocking timing using millis()
+⏱️ Non-blocking timing
 
-🎛️ State-machine based mode handling
-
-Per-LED animation scheduling for the cloud subsystem
+🎛️ State-machine mode system
 
 Tooling
 
-🖥️ Visual Studio Code
+🖥️ VS Code
 
 🔧 PlatformIO extension
 
-🔐 GitHub with SSH workflow
+🔐 GitHub SSH workflow
 
 📁 Project Structure
 jinx-led-engine/
  ├── src/
  │   └── main.cpp
  ├── include/
- ├── images/            ← GIFs & photos live here
+ ├── images/
  ├── platformio.ini
  └── README.md
 
-🖼️ Gallery
+🖼️ Gallery (Optional)
 
-Add still photos of the statue, cloud details, and internals here:
+Add photos here:
