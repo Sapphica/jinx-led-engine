@@ -12,7 +12,7 @@
 
 <p align="center">
   <video width="720" autoplay loop muted playsinline>
-    <source src="assets/jinx.mp4" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/Sapphica/jinx-led-engine/main/assets/jinx.mp4" type="video/mp4">
   </video>
 </p>
 
