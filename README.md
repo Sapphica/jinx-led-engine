@@ -16,10 +16,6 @@
   </video>
 </p>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Sapphica/jinx-led-engine/main/assets/jinx.mp4" type="video/mp4"> 
-</div>
-
 ---
 
 ## ⚙️ Engineering Summary
