@@ -76,12 +76,32 @@ The system uses fully non-blocking scheduling (`millis()`), enabling determinist
 
 ---
 
-## 🖼️ Gallery
+## 📸 Gallery
 
-*(Add any photos here — wiring, diffusion panels, the finished statue, etc.)*
+<p align="center">
+  <img src="assets/IMG_0795.jpg" width="280" /><br>
+  <sub><b>Prototype Sparkle Engine</b> — early breadboard validation of timing, colour curves, and GRBW output.</sub>
+</p>
 
-![Photo 1](docs/gallery_1.jpg)  
-![Photo 2](docs/gallery_2.jpg)  
-![Photo 3](docs/gallery_3.jpg)
+<p align="center">
+  <img src="assets/IMG_0799.jpg" width="280" /><br>
+  <sub><b>Internal Lighting Layout</b> — cloud-zone LEDs (0–11) positioned under the acrylic diffusion layer.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/IMG_0801.jpg" width="280" /><br>
+  <sub><b>Nano Every Driver Board</b> — standalone control stack running both animation engines with non-blocking scheduling.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/IMG_0802.jpg" width="280" /><br>
+  <sub><b>Cloud Lightning Effect</b> — randomized micro-bursts firing through the diffused resin cloud structure.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/IMG_0808.jpg" width="280" /><br>
+  <sub><b>Final Assembly</b> — full integration inside the statue base, balanced diffusion, and ambient colour temperature tuning.</sub>
+</p>
+
 
 ---
