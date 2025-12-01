@@ -9,9 +9,12 @@
 ---
 
 ## ✨ Animated Showcase  
-*(Place your GIF below — full-width recommended)*
 
-![Showcase](docs/animated_showcase.gif)
+<p align="center">
+  <video width="720" autoplay loop muted playsinline>
+    <source src="https://raw.githubusercontent.com/Sapphica/jinx-led-engine/main/assets/jinx.mp4" type="video/mp4">
+  </video>
+</p>
 
 ---
 
