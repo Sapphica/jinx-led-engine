@@ -11,7 +11,7 @@
 ## ✨ Animated Showcase  
 
 <p align="center">
-  <img src="assets/jinx.gif" width="480" />
+  <img src="assets/jinx.gif" alt="Jinx LED Engine Demo" style="border-radius:12px;">
 </p>
 
 ---
