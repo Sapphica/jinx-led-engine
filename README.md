@@ -78,30 +78,39 @@ The system uses fully non-blocking scheduling (`millis()`), enabling determinist
 
 ## 📸 Gallery
 
-<p align="center">
-  <img src="assets/IMG_0795.jpg" width="280" /><br>
-  <sub><b>Prototype Sparkle Engine</b> — early breadboard validation of timing, colour curves, and GRBW output.</sub>
-</p>
+## 📸 Gallery
 
-<p align="center">
-  <img src="assets/IMG_0799.jpg" width="280" /><br>
-  <sub><b>Internal Lighting Layout</b> — cloud-zone LEDs (0–11) positioned under the acrylic diffusion layer.</sub>
-</p>
+<div style="margin-left: 10px;">
 
-<p align="center">
-  <img src="assets/IMG_0801.jpg" width="280" /><br>
-  <sub><b>Nano Every Driver Board</b> — standalone control stack running both animation engines with non-blocking scheduling.</sub>
-</p>
+<img src="assets/IMG_0795.jpg" width="320" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25); border-radius: 4px;" />
+<br>
+<sub><b>Prototype Sparkle Engine</b> — early breadboard validation of timing, colour curves, and GRBW output.</sub>
 
-<p align="center">
-  <img src="assets/IMG_0802.jpg" width="280" /><br>
-  <sub><b>Cloud Lightning Effect</b> — randomized micro-bursts firing through the diffused resin cloud structure.</sub>
-</p>
+<br><br>
 
-<p align="center">
-  <img src="assets/IMG_0808.jpg" width="280" /><br>
-  <sub><b>Final Assembly</b> — full integration inside the statue base, balanced diffusion, and ambient colour temperature tuning.</sub>
-</p>
+<img src="assets/IMG_0799.jpg" width="320" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25); border-radius: 4px;" />
+<br>
+<sub><b>Internal Lighting Layout</b> — cloud-zone LEDs (0–11) positioned under the acrylic diffusion layer.</sub>
+
+<br><br>
+
+<img src="assets/IMG_0801.jpg" width="320" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25); border-radius: 4px;" />
+<br>
+<sub><b>Nano Every Driver Board</b> — standalone control stack running both animation engines with non-blocking scheduling.</sub>
+
+<br><br>
+
+<img src="assets/IMG_0802.jpg" width="320" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25); border-radius: 4px;" />
+<br>
+<sub><b>Cloud Lightning Effect</b> — randomized micro-bursts firing through the diffused resin cloud structure.</sub>
+
+<br><br>
+
+<img src="assets/IMG_0808.jpg" width="320" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25); border-radius: 4px;" />
+<br>
+<sub><b>Final Assembly</b> — full integration inside the statue base, balanced diffusion, and ambient colour temperature tuning.</sub>
+
+</div>
 
 
 ---
