@@ -9,6 +9,7 @@
 ---
 
 ## ✨ Animated Showcase  
+
 <p align="center">
   <video width="720" autoplay loop muted playsinline>
     <source src="assets/jinx.mp4" type="video/mp4">
